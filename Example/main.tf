@@ -21,3 +21,4 @@ provider "aws" {
 
 output "Name" {
   value = "Learning from MextOps-terra"
+}
