@@ -12,13 +12,11 @@ terraform {
 }
 
 provider "azurerm" {
-  source  = "hashicorp/azurerm"
-  features {}
+    features {}
 }
 
 provider "aws" {
-  source  = "hashicorp/aws"
-  location = "us-east-1"
+    location = "us-east-1"
 }
 
 output "Name" {
